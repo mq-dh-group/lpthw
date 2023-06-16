@@ -15,4 +15,4 @@ When you run (”use” or ”call”) a function, check these things:
 3. Did you put the values you want into the parenthesis separated by commas?
 4. Did you end the function with a ) character?
 
-"To 'run', 'call', or 'use' a function all mean the same thing>"
+To 'run', 'call', or 'use' a function all mean the same thing.
