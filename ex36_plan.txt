@@ -3,12 +3,16 @@
 
 # I am also using this file to mark progress. Parts completed will be indented another tab length.
 
+# Key:
+    * Monsters = game over
+    * Traps = reset to previous room    
+
 # Rooms:
         # The Nest (unit)
-    # The Open Night ('dark')
-    # The Open Day ('light')
-    # The Airport (disguised freedom)
-    # The Terminal (illusion of being almost there)
+        # The Open Day ('light')
+        # The Open Night ('dark')
+        # The Airport (disguised freedom)
+        # The Terminal (illusion of being almost there)
     # The Plane (a bitter taste of freedom)
     # The Destination (false freedom)
     # Contentment (real freedom)
@@ -17,19 +21,17 @@
 # Monsters:
     # The Nest
         # The Big Scary Nothing (initial hesitation)
-# The Open Night
-    # Silhouette (the unknown)
-# The Airport
-    # A Crowd of Businessmen (the pressure)
-# The Terminal
-    # The Intimidating Squirrel (last minute pull out)
+    # The Open Night
+        # Silhouette (the unknown)
+    # The Terminal
+        # The Intimidating Flight Attendant (last minute pull out)
 
 
 # Traps:
-# The Open Day
-    # Café (the known)
-# The Airport
-    # Did you bring your passport? (commitment)
+    # The Open Day
+        # Café (the known)
+    # The Airport
+        # A Crowd of Businessmen (the pressure)
 # The Plane
     # Drinks multiple (5 or more and you're stuck?)
 # The Destination
