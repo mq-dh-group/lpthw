@@ -146,8 +146,85 @@ def terminal_room():
 
 
 def plane_room():
-    print("There is nothing here yet.")
+    print("You board the plane at a window seat with no one next to you.")
+    print('A stewardess approaches.')
+    print('"Would you like a drink sir?')
+    print("(yes/no)")
+
+    action = input("> ")
+    if action == 'yes':
+        print("You finish your drink. The stewardess returns.")
+        print("Would you like another?")
+        print("(yes/no)")
+
+        action = input("> ")
+        if action == 'yes':
+            print("You finish your drink. The stewardess returns.")
+            print("Would you like another?")
+            print("(yes/no)")
+
+            action = input("> ")
+            if action == 'yes':
+                print("You finish your drink.")
+                print("You have had little sleep and little food.")
+                print("You are sent off the plane.")
+                game_over()
+            elif action == 'no':
+                destination_room()
+            else:
+                plane_room()
+
+        if action =='no':
+            destination_room()
+
+    elif action == 'no':
+        destination_room()
+    else:
+        plane_room()
 
 
+def destination_room():
+    print("The plane lands.")
+    print("You get outside of the airport, take a deep breath and ask yourself...")
+    print('"Is this it? Is this freedom?"')
+    print("You spend hours contemplating this one question.")
+    print('"Did coming all this way achieve my freedom?"')
+    print("Think about your answer carefully.")
+    print("(yes/no)")
+
+    action = input("> ")
+    if action == 'yes':
+        print("Freedom only comes from within.")
+        print("On this metaphorical journey you traversed through mental obstacles.")
+        print("However, you missed the key insight at the end.")
+        print("No destination you arrive at can provide freedom.")
+        print("You failed to recognise the impernanence of everything.")
+        print("This conclusion will only send you back to where you started.")
+        print("Do you want to try again (from the start of the game.)?")
+        print("(yes/no)")
+
+        action = input("> ")
+        if action == 'yes':
+            start()
+        elif action == 'no':
+            game_over()
+        else:
+            destination_room()
+        
+    elif action == 'no':
+        print("You have discovered the true meaning.")
+        contentment_room()
+    else:
+        destination_room()
+
+def contentment_room():
+    print('''
+          \tInner freedom and peace do not come from the arriving at the next destination.
+          \tIt comes from within.
+          \tYou may need to go on a physical journey like this one to get there.
+          \tBut the real journey is not in physically getting from place to place.
+          \tIt is overcoming obstacles in your mind to achieve contentment.
+          ''')
+    game_over()
 
 start()

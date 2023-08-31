@@ -5,7 +5,7 @@
 
 # Key:
     * Monsters = game over
-    * Traps = reset to previous room    
+    * Traps = reset to previous room
 
 # Rooms:
         # The Nest (unit)
@@ -13,9 +13,9 @@
         # The Open Night ('dark')
         # The Airport (disguised freedom)
         # The Terminal (illusion of being almost there)
-    # The Plane (a bitter taste of freedom)
-    # The Destination (false freedom)
-    # Contentment (real freedom)
+        # The Plane (a bitter taste of freedom)
+        # The Destination (false freedom)
+        # Contentment (real freedom)
 
 
 # Monsters:
@@ -32,8 +32,7 @@
         # Café (the known)
     # The Airport
         # A Crowd of Businessmen (the pressure)
-# The Plane
-    # Drinks multiple (5 or more and you're stuck?)
-# The Destination
-    # The feeling of "I did it!" (illusion, sends back to the beginning)
-
+    # The Plane
+        # Drinks multiple (5 or more and you're stuck?)
+    # The Destination
+        # The feeling of "I did it!" (illusion, sends back to the beginning)
