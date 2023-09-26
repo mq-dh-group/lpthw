@@ -1,0 +1,61 @@
+LPTHW, ex45: "You Make a Game"
+
+Game name:
+Diamond City's Death Arena
+
+A paragraph about the game:
+
+"Inspired by chapters 28-40 of Kazuki Takahashi's manga, Yu-Gi-Oh!, in this text-based adventure game (which is sort of in the theme of an escape room) you go on a journey with a group of characters completing mini-games (i.e., solving problems). You join forces with friends Dilly, Stizza, and Keano to get through a series of rooms, each with a unique challenge to complete. Once the solution is successfully found, you proceed to the next room until finally completing all rooms at which point the game concludes. Little do the challengers know, that the punishment for losing any level is death. The game will involve an engine that runs a map full of scenes. Each scene has a linear progression which corresponds to 'levels' within the game. After entering each scene, the player (along with their NPC friends) try to solve the level's challenge, either succeeding (and progressing to the next scene), failing (and dying, i.e, 'Game Over'), or trying again (when the answer given 'does not compute')."
+
+
+Background/setting the scene (also opening text for the game)
+*Input player_name, then use f-strings for future dialogue including the name.
+Narrator: It's a Saturday morning in Diamond City, and {player_name} along with friends Dilly, Stizza, and Keano, have been invited to test run the new Game Arena downtown. After completing an escape room the previous weekend in record time, the owner, Shinigami, invited everyone to be the test candidates for his newest invention. They were told that this newest arena is of a much larger scale than your typical escape room, and also that it is far more "immersive", whatever that means.
+
+
+List of concepts (nouns and verbs):
+
+Nouns:
+* Player
+* Room
+* Level
+* Scene
+* Challenge
+* Solution
+* Punishment
+* Death
+* Diamond City
+* Game Arena
+* downtown
+* Map
+* Engine
+* NPC
+
+Verbs:
+* complete
+* lose
+* fail
+* die
+* try again
+* procede
+* solve
+* enter
+
+
+Class Hierarchy and Object Map for the concepts:
+
+Map
+  - opening_scene
+  - next_scene
+  - final_scene? (not sure if this is conceptually necessary)
+Engine
+  - play
+Scene
+  - enter
+  * opening_scene
+  * Death
+  * Level 1
+  * Level 2
+  * Level 3
+  * Level 4
+  * Level 5 (final)
